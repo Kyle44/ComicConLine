@@ -5,5 +5,6 @@
 
 def main():
 	print("New Branch made! Cool!")
+        print("Cygwin branch created!")
 	return
 main()
