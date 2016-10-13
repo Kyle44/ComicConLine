@@ -3,8 +3,13 @@
 # Date Created: 10/11/16
 # Description: Algorithms Project 1, 
 
+import sys # for getting input file
+
 def main():
-	print("New Branch made! Cool!")
-        print("Cygwin branch created!")
+	filename = sys.argv[-1]
+	openedFile = open(filename)
+
+	peopleList = list(openedFile)
+	print(peopleList)
 	return
 main()

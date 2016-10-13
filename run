@@ -1,0 +1,3 @@
+# to init : chmod 755 run
+
+python main.py test1.txt
