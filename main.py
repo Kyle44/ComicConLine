@@ -39,6 +39,7 @@ def main():
 	peopleList.sort() # Sorts the list in alphabetic order {G, H, T, W}
 	peopleLen = len(peopleList) # Number of people
 	indG, indH, indT, indW = getIndexes(peopleList)
+
 	print(indG, indT)
 	print(peopleLen)
 	print(peopleList)
